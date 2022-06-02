@@ -21,7 +21,7 @@ function App() {
     const res = await axios.get(allPokemon);
 
     getPokemon(res.data.results);
-    // console.log(pokedex, "FlagA")
+    console.log(pokedex, "FlagA")
   };
 
   const getPokemon = async (res) => {

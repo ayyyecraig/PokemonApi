@@ -1,13 +1,86 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.info {
+  display: flex;
+  justify-content: flex-end;
+  max-width: fit-content;
+  margin: auto;
+}
+h1 {
+  border-bottom: black solid 50px;
+  background-color: red;
+  height: 100px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.pokedex {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  gap: 20px;
+  background-color: white;
+  justify-content: center;
+}
+
+.poke {
+  background-image: url("https://assets.wallpapersin4k.org/uploads/2017/03/Pokemon-Box-Wallpapers.png");
+  background-repeat: no-repeat;
+  background-color: aliceblue;
+  border-radius: 10%;
+  align-content: center;
+  border: black solid 7px;
+}
+
+.one {
+  background-image: url("https://assets.wallpapersin4k.org/uploads/2017/03/Pokemon-Box-Wallpapers.png");
+  background-repeat: no-repeat;
+  background-color: red;
+}
+
+.sprites {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background-color: aliceblue;
+}
+
+.basicInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  max-width: fit-content;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.list {
+  text-align: center;
+
+  text-decoration: underline;
+}
+.moves {
+  display: grid;
+  grid-template-columns: 120px 120px 120px 120px 120px;
+  gap: 30px;
+  background-color: white;
+  justify-content: center;
+}
+
+.move {
+  background-color: rgb(244 250 126);
+  border: black solid;
+  border-radius: 20%;
 }

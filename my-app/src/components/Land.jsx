@@ -39,6 +39,8 @@ function App() {
 
   useEffect(() => {
     // pokemons();
+
+
   }, [setAllPokemon]);
 
   return (

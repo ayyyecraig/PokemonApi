@@ -2,6 +2,10 @@
 
 [Adelaide Craig](https://github.com/ayyyecraig) | [Linkedin](https://www.linkedin.com/in/adelaide-craig-00066b1a9/)
 
+
+[Deployed Assement](https://pokeapiadelaide.herokuapp.com/24)
+
+
 # Part One _nology USA Tech Test
 To help show off your abilities, we would like you to build a
 "Pokemon
@@ -47,3 +51,4 @@ re done, deploy your Application to google cloud platform app engine standard en
 - Vs code has the extension "prettier"; makes for an ease when your code is a little out of line and un-readable. Left click, format document, and your code instantly is easier for you and every one else to read. While learning to write and read code; messy work will be your worst enemy, especially in languages like python!  Never leave code that serves no purpose ex: a function you didnt realized you didnt need and just commented it out.
 
 - Working thru Github is a skill of its own and commits are very important. When working on projects big or small, commit early, commit often. 
+

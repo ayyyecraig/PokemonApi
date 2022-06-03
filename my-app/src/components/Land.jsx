@@ -38,7 +38,7 @@ function App() {
   };
 
   useEffect(() => {
-    pokemons();
+    // pokemons();
   }, [setAllPokemon]);
 
   return (

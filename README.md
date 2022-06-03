@@ -3,7 +3,7 @@
 [Adelaide Craig](https://github.com/ayyyecraig) | [Linkedin](https://www.linkedin.com/in/adelaide-craig-00066b1a9/)
 
 
-[Deployed Assement](https://pokeapiadelaide.herokuapp.com/24)
+[Deployed Assement](https://pokeapiadelaide.herokuapp.com/)
 
 
 # Part One _nology USA Tech Test

@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 function App() {
   const [pokedex, setPokedex] = useState([]); //holds state of mass data
   const [allPokemon, setAllPokemon] = useState(
-    "https://pokeapi.co/api/v2/pokemon?&limit=151"
+    "https://pokeapi.co/api/v2/pokemon?&limit=1126"
   ); //actual URL holding pokemon
 
   const pokemons = async () => {
@@ -37,9 +37,15 @@ function App() {
     });
   };
 
-  useEffect(() => {
-    // pokemons();
 
+  useEffect(() => {
+//     pokemons();
+// console.log('effect')
+return () => {
+  pokemons();
+  console.log('effect')
+  console.log('cleanup')
+}
 
   }, [setAllPokemon]);
 

@@ -7,15 +7,12 @@
 
 
 # Part One _nology USA Tech Test
-To help show off your abilities, we would like you to build a
-"Pokemon
-" API.
- which allows developers to access
-information about the pokemon universe. This should be a RESTful API using a language of your choice with
-the following endpoints.
+To help show off my coding abilities, I built a simple pokedex using a pokeAPI 
+ which allows users to access
+information about the pokemon universe. This is a RESTful API using React Js
 
 ---
-## During which we'd like you to highlight 5 examples of coding best-practices you would advocate to students.
+## Which highlights 5 examples of coding best-practices 
 -----
 - GET /pokemon
 - This should serve all the pokemon in a JSON arrray.
@@ -28,13 +25,7 @@ the following endpoints.
 " }
 ----
 -------
-- Once
-you
-'
-re done, deploy your Application to google cloud platform app engine standard environment.
 
-
-- Please send a GitHub repository link and public url for your API. 
 
 
 -----   

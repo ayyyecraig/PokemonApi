@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-
 import { Link } from "react-router-dom";
 
 /// *pseudo code to help keep track of the code you've written and how it was implemented*
@@ -14,7 +13,7 @@ import { Link } from "react-router-dom";
 function App() {
   const [pokedex, setPokedex] = useState([]); //holds state of mass data
   const [allPokemon, setAllPokemon] = useState(
-    "https://pokeapi.co/api/v2/pokemon?&limit=1126"
+    "https://pokeapi.co/api/v2/pokemon?&limit=151"
   ); //actual URL holding pokemon
 
   const pokemons = async () => {
@@ -53,7 +52,17 @@ return () => {
     <div className="App">
       <header className="App-header">
         <div className="top">
-          <h1>Pokemon</h1>
+          <h1 className="h1">Pokèdex</h1>
+     
+      <div className="search">
+        <input
+          id="outlined-basic"
+          variant="outlined"
+          fullWidth
+          label="Search"
+        /> 
+        <button>Search</button>
+        </div>
         </div>
 
         <div className="pokedex">
